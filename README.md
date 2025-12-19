@@ -1,11 +1,16 @@
 # Monte Carlo Simulation of NIFTY BANK Index (2015–2025)
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![Python](https://img.shields.io/badge/Python-3.11.9-blue)
+![NumPy](https://img.shields.io/badge/NumPy-2.3.4-blue)
+![Pandas](https://img.shields.io/badge/Pandas-2.2.3-blue)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.10.0-blue)
+![Seaborn](https://img.shields.io/badge/Seaborn-0.13.2-blue)
+![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-1.6.1-blue)
+
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Method](https://img.shields.io/badge/Method-Monte%20Carlo-orange)
 ![Focus](https://img.shields.io/badge/Focus-Probability%20%26%20Stochastic%20Processes-purple)
 
----
 
 ## Overview
 
@@ -18,18 +23,17 @@ Both **parametric (Geometric Brownian Motion)** and **non-parametric (bootstrap)
 Monte Carlo methods are employed to analyze how modeling assumptions influence
 risk estimates in real-world financial time series.
 
----
+
 
 ## Repository Contents
 
 | Description | File |
 |------------|------|
-| Jupyter notebook containing the complete Monte Carlo simulation, EDA, parameter estimation, and risk analysis | `Monte_Carlo_Simulation_of_NIFTY_BANK_2015-2025.ipynb` |
-| Detailed academic report with mathematical formulation, results, and interpretation | `Monte_Carlo_Report.pdf` |
+| Jupyter notebook containing the complete Monte Carlo simulation, EDA, parameter estimation, and risk analysis | `Monte_Carlo_Simulation_of_NIFTY_BANK_Index_2015-2025.ipynb` |
+| Detailed academic report with mathematical formulation, results, and interpretation | `Monte_Carlo_Simulation_of_NIFTY_BANK_Index_Research_Note.pdf` |
 | Historical daily NIFTY BANK index data (2015–2025) | `niftybank2015-2025.csv` |
-| Exported figures and plots used in the report | `figures` |
 
----
+
 
 ## Motivation
 
@@ -42,7 +46,7 @@ Monte Carlo methods provide a principled framework for:
 - studying variability and extreme events,
 - comparing theoretical assumptions with empirical behavior.
 
----
+
 
 ## Key Features
 
@@ -71,7 +75,7 @@ Monte Carlo methods provide a principled framework for:
 - Conditional Value at Risk (CVaR)
 - Comparison across historical, GBM, and bootstrap approaches
 
----
+
 
 ## Dataset
 
@@ -82,7 +86,7 @@ Monte Carlo methods provide a principled framework for:
 
 The dataset is used strictly for academic and research purposes.
 
----
+
 ## Repository Structure
 
 ├── Monte_Carlo_Simulation_of_NIFTY_BANK.ipynb
