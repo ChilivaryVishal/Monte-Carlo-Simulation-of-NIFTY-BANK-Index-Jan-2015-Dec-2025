@@ -12,6 +12,7 @@
 ![Focus](https://img.shields.io/badge/Focus-Probability%20%26%20Stochastic%20Processes-purple)
 
 
+
 ## Overview
 
 This repository presents an **applied probability and stochastic modeling study**
@@ -25,6 +26,7 @@ risk estimates in real-world financial time series.
 
 
 
+
 ## Repository Contents
 
 | Description | File |
@@ -32,6 +34,7 @@ risk estimates in real-world financial time series.
 | Jupyter notebook containing the complete Monte Carlo simulation, EDA, parameter estimation, and risk analysis | `Monte_Carlo_Simulation_of_NIFTY_BANK_Index_2015-2025.ipynb` |
 | Detailed academic report with mathematical formulation, results, and interpretation | `Monte_Carlo_Simulation_of_NIFTY_BANK_Index_Research_Note.pdf` |
 | Historical daily NIFTY BANK index data (2015–2025) | `niftybank2015-2025.csv` |
+
 
 
 
@@ -45,6 +48,7 @@ Monte Carlo methods provide a principled framework for:
 - modeling stochastic dynamics,
 - studying variability and extreme events,
 - comparing theoretical assumptions with empirical behavior.
+
 
 
 
@@ -87,18 +91,7 @@ Monte Carlo methods provide a principled framework for:
 The dataset is used strictly for academic and research purposes.
 
 
-## Repository Structure
 
-├── Monte_Carlo_Simulation_of_NIFTY_BANK.ipynb
-├── Monte_Carlo_Report.pdf
-├── data/
-│ └── niftybank2015-2025.csv
-├── figures/
-│ └── (exported plots)
-├── README.md
-└── LICENSE
-
----
 
 ## Key Concepts
 
@@ -112,7 +105,8 @@ The dataset is used strictly for academic and research purposes.
 - Value at Risk (VaR)  
 - Conditional Value at Risk (CVaR)
 
----
+
+
 
 ## Results at a Glance
 
@@ -123,20 +117,23 @@ The dataset is used strictly for academic and research purposes.
 - Risk measures are highly sensitive to distributional assumptions, highlighting
   the importance of model choice in uncertainty quantification.
 
----
+
+
 
 ## Technologies Used
 - Python (Pandas, NumPy, Seaborn, Matplotlib, scikit learn)
 - Jupyter Notebook
   
----
+
+
 ## Author
 
 **Chilivary Vishal**  
 Integrated M.Sc. Mathematics  
 National Institute of Technology Warangal
 
----
+
+
 
 ## License
 
