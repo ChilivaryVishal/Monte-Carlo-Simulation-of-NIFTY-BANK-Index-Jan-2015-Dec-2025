@@ -11,7 +11,7 @@
 ![Method](https://img.shields.io/badge/Method-Monte%20Carlo-orange)
 ![Focus](https://img.shields.io/badge/Focus-Probability%20%26%20Stochastic%20Processes-purple)
 
-
+![Monte Carlo Simulation Using Geometric Brownian Motion](figures/Monte_Carlo_GBM_Chart.svg)
 
 ## Overview
 
@@ -31,10 +31,10 @@ risk estimates in real-world financial time series.
 
 | Description | File |
 |------------|------|
-| Jupyter notebook containing the complete Monte Carlo simulation, EDA, parameter estimation, and risk analysis | `Monte_Carlo_Simulation_of_NIFTY_BANK_Index_2015-2025.ipynb` |
+| Jupyter notebook containing the complete Monte Carlo simulation, EDA, parameter estimation, and risk analysis | `Monte_Carlo_Simulation_of_NIFTY_BANK_Index_2015_2025.ipynb` |
 | Detailed academic report with mathematical formulation, results, and interpretation | `Monte_Carlo_Simulation_of_NIFTY_BANK_Index_Research_Note.pdf` |
 | Historical daily NIFTY BANK index data (2015–2025) | `niftybank2015-2025.csv` |
-
+| Publication-quality figures (SVG format) | `figures/` |
 
 
 
